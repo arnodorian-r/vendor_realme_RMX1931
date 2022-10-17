@@ -104,6 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libgf_hal_G5.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G5.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libgf_hal_G6.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G6.so \
+    vendor/realme/RMX1931/proprietary/odm/lib64/libhwconfigurationutil.so:$(TARGET_COPY_OUT_ODM)/lib64/libhwconfigurationutil.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libmpbase.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
