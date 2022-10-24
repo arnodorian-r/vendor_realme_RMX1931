@@ -9,8 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/realme/RMX1931/proprietary/odm/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/realme/RMX1931/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
-    vendor/realme/RMX1931/proprietary/odm/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.esepowermanager@1.1-service \
-    vendor/realme/RMX1931/proprietary/odm/bin/hw/vendor.qti.secure_element@1.2-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.secure_element@1.2-service \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/FusionBin.dat:$(TARGET_COPY_OUT_ODM)/etc/camera/FusionBin.dat \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel.cache \
@@ -47,8 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/lib/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G3.default.so \
     vendor/realme/RMX1931/proprietary/odm/lib/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/RMX1931/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
-    vendor/realme/RMX1931/proprietary/odm/lib/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.qti.esepowermanager@1.1-impl.so \
-    vendor/realme/RMX1931/proprietary/odm/lib/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.secure_element@1.0-impl.so \
     vendor/realme/RMX1931/proprietary/odm/lib/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib/libaudioEngineerTest.so \
     vendor/realme/RMX1931/proprietary/odm/lib/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G2.so \
     vendor/realme/RMX1931/proprietary/odm/lib/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G3.so \
@@ -72,13 +68,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so \
     vendor/realme/RMX1931/proprietary/odm/lib/rfsa/adsp/libsnpe_dsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libsnpe_dsp_skel.so \
     vendor/realme/RMX1931/proprietary/odm/lib/soundfx/libhaptic_effect.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libhaptic_effect.so \
-    vendor/realme/RMX1931/proprietary/odm/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.qti.esepowermanager@1.0.so \
-    vendor/realme/RMX1931/proprietary/odm/lib/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.qti.esepowermanager@1.1.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G2.default.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G3.default.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G6.default.so \
-    vendor/realme/RMX1931/proprietary/odm/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.secure_element@1.0-impl.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libAlgoInterface.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoInterface.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libAlgoProcess.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoProcess.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libAncHumBokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumBokeh.so \
@@ -122,8 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
-    vendor/realme/RMX1931/proprietary/odm/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.0.so \
-    vendor/realme/RMX1931/proprietary/odm/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.1.so \
     vendor/realme/RMX1931/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/realme/RMX1931/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/realme/RMX1931/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
@@ -306,7 +297,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/realme/RMX1931/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/realme/RMX1931/proprietary/vendor/etc/configstore/vpp.configstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/configstore/vpp.configstore.xml \
-    vendor/realme/RMX1931/proprietary/vendor/etc/configstore/wigig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/configstore/wigig.xml \
     vendor/realme/RMX1931/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/realme/RMX1931/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/realme/RMX1931/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
@@ -522,6 +512,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/lib/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDec.so \
     vendor/realme/RMX1931/proprietary/vendor/lib/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDecSw.so \
     vendor/realme/RMX1931/proprietary/vendor/lib/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrDec.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrwbplusDec.so \
     vendor/realme/RMX1931/proprietary/vendor/lib/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDec.so \
     vendor/realme/RMX1931/proprietary/vendor/lib/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDecSw.so \
     vendor/realme/RMX1931/proprietary/vendor/lib/libOmxDsdDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxDsdDec.so \
@@ -835,25 +826,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE_vendor.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libMpeg4SwEncoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMpeg4SwEncoder.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libOGLManager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOGLManager.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libOPLUS_aisd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOPLUS_aisd.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libOPPORectify.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOPPORectify.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAacDec.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDec.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDecSw.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrDec.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrwbplusDec.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDec.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDecSw.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxEvrcDec.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Dec.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Dec.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxSwVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxSwVdec.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxSwVencMpeg4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxSwVencMpeg4.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVdec.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libPerfectlyClearCrux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPerfectlyClearCrux.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
@@ -1019,6 +994,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libocam_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libocam_common.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemaids_vendor.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/liboppo_platform_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_platform_hwi.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfconfig.so \
@@ -1104,7 +1080,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstdc++.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so \
