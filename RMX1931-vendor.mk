@@ -1351,7 +1351,22 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
     vendor/realme/RMX1931/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
     vendor/realme/RMX1931/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
-
+    vendor/realme/RMX1931/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libalsautils.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbatterylistener.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib/libcirrusspkrprot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcirrusspkrprot.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib/libcomprcapture.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomprcapture.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib/libexthwplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexthwplugin.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib/libsndmonitor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsndmonitor.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib/libspkrprot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libspkrprot.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsurround_3mic_proc.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libalsautils.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbatterylistener.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib64/libcirrusspkrprot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcirrusspkrprot.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib64/libcomprcapture.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomprcapture.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib64/libhdmiedid.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdmiedid.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib64/libhdmipassthru.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdmipassthru.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib64/libsndmonitor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsndmonitor.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib64/libspkrprot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libspkrprot.so \
 PRODUCT_PACKAGES += \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
