@@ -16,6 +16,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
     vendor/realme/RMX1931/proprietary/odm/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Global_cal.acdb \
     vendor/realme/RMX1931/proprietary/odm/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/realme/RMX1931/proprietary/odm/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Handset_cal.acdb \
     vendor/realme/RMX1931/proprietary/odm/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Headset_cal.acdb \
     vendor/realme/RMX1931/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
