@@ -1551,6 +1551,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libspkrprot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libspkrprot.so \
 
 PRODUCT_PACKAGES += \
+    coloros-support-wrapper \
+    com.oppo.camera.unit.sdk \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
     com.quicinc.cne.constants@1.0 \
