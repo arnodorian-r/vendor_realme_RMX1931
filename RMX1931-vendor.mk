@@ -36,70 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_main.bin \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_ultrawide.bin \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/000.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/000_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/001.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/001_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/002.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/002.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/002_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/002_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/003.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/003.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/003_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/003_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/010.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/010_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/011.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/011_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/012.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/012.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/012_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/012_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/013.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/013.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/100.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/100.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/100_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/100_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/101.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/101.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/101_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/101_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/102.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/102.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/102_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/102_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/103.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/103.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/103_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/103_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/110.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/110.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/110_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/110_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/111.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/111.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/111_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/111_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/112.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/112.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/112_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/112_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/113.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/113.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/200.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/200.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/200_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/200_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/201.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/201.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/201_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/201_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/202.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/202.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/202_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/202_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/203.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/203.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/203_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/203_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/210.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/210.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/210_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/210_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/211.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/211.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/211_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/211_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/212.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/212_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212_pre.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/213.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/213.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/eyeBright.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyeBright.png \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs00.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs01.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs02.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs03.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs10.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs11.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs12.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs13.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_00.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_01.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_02.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_03.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_10.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_11.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_12.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_13.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinmask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/fb_model/skinmask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.png \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/filters_lut/B1VLf4peM:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1VLf4peM \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/filters_lut/B1aMqioxf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1aMqioxf \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/filters_lut/B1nmcmWbG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1nmcmWbG \
@@ -162,8 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/filters_res/overlay_p4_3_weak.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/overlay_p4_3_weak.png \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gasryuv_1.2_wp.model \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/license_release_fdc.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/license_release_fdc.lic \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/megvii/merged_model:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/merged_model \
-    vendor/realme/RMX1931/proprietary/odm/etc/camera/megvii/merged_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/megvii/merged_model_post \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/model/DocDetectV15.xbin:$(TARGET_COPY_OUT_ODM)/etc/camera/model/DocDetectV15.xbin \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/model/license.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/model/license.lic \
     vendor/realme/RMX1931/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
@@ -546,6 +480,72 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mtStereoParams.bin \
     vendor/realme/RMX1931/proprietary/vendor/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mwStereoParams.bin \
     vendor/realme/RMX1931/proprietary/vendor/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/skinSeg.model \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/000.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/000.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/000_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/000_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/001.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/001.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/001_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/001_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/002.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/002.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/002_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/002_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/003.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/003.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/003_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/003_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/010.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/010.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/010_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/010_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/011.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/011.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/011_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/011_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/012.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/012.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/012_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/012_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/013.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/013.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/100.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/100.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/100_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/100_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/101.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/101.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/101_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/101_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/102.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/102.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/102_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/102_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/103.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/103.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/103_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/103_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/110.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/110.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/110_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/110_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/111.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/111.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/111_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/111_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/112.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/112.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/112_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/112_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/113.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/113.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/200.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/200.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/200_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/200_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/201.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/201.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/201_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/201_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/202.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/202.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/202_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/202_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/203.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/203.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/203_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/203_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/210.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/210.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/210_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/210_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/211.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/211.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/211_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/211_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/212.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/212.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/212_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/212_pre.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/213.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/213.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/eyeBright.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/eyeBright.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs00.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs00.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs01.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs02.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs02.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs03.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs10.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs11.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs11.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs12.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs12.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs13.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs_yuv16_00.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs_yuv16_00.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs_yuv16_01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs_yuv16_01.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs_yuv16_02.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs_yuv16_02.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs_yuv16_03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs_yuv16_03.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs_yuv16_10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs_yuv16_10.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs_yuv16_11.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs_yuv16_11.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs_yuv16_12.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs_yuv16_12.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinLUTs_yuv16_13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs_yuv16_13.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinmask.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinmask.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_model/skinmask.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinmask.png \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/megvii/merged_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megvii/merged_model \
+    vendor/realme/RMX1931/proprietary/vendor/etc/camera/megvii/merged_model_post:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megvii/merged_model_post \
     vendor/realme/RMX1931/proprietary/vendor/etc/camera/tonemap/tonemap_lut_0:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_0 \
     vendor/realme/RMX1931/proprietary/vendor/etc/camera/tonemap/tonemap_lut_1:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_1 \
     vendor/realme/RMX1931/proprietary/vendor/etc/camera/tonemap/tonemap_lut_10:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_10 \
