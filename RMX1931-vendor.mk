@@ -264,6 +264,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libancbase_rt_bokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_rt_bokeh.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib64/libaudioEngineerTest.so \
+    vendor/realme/RMX1931/proprietary/odm/lib64/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib64/libbsproxy.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib64/libc++_shared.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libcdm_metrics_protos.so:$(TARGET_COPY_OUT_ODM)/lib64/libcdm_metrics_protos.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libcdm_protos.so:$(TARGET_COPY_OUT_ODM)/lib64/libcdm_protos.so \
@@ -343,6 +344,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/system_ext/lib64/libAncHumBokeh-jni.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumBokeh-jni.qti.so \
     vendor/realme/RMX1931/proprietary/system_ext/lib64/libAncHumanVideo-jni.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanVideo-jni.qti.so \
     vendor/realme/RMX1931/proprietary/system_ext/lib64/libEngCameraClient-jni.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libEngCameraClient-jni.qti.so \
+    vendor/realme/RMX1931/proprietary/system_ext/lib64/libNativeWinBuffExchange.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libNativeWinBuffExchange.so \
     vendor/realme/RMX1931/proprietary/system_ext/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/realme/RMX1931/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/realme/RMX1931/proprietary/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/fm_helium.so \
