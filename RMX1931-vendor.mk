@@ -721,6 +721,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/realme/RMX1931/proprietary/vendor/etc/tunings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/tunings.txt \
     vendor/realme/RMX1931/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/fastchg/19781/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fastchg/19781/oplus_vooc_fw.bin \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/tp/19081/FW_S3706_SAMSUNG.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19081/FW_S3706_SAMSUNG.img \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/tp/19081/FW_S3706_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19081/FW_S3706_SAMSUNG_FAE.img \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/tp/19081/FW_S3706_SAMSUNG_OLD.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19081/FW_S3706_SAMSUNG_OLD.img \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/tp/19081/FW_S3706_SAMSUNG_OLD_FAE.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19081/FW_S3706_SAMSUNG_OLD_FAE.img \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/tp/19081/LIMIT_S3706_SAMSUNG.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19081/LIMIT_S3706_SAMSUNG.img \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/tp/19081/LIMIT_S3706_SAMSUNG_OLD.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19081/LIMIT_S3706_SAMSUNG_OLD.img \
     vendor/realme/RMX1931/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/realme/RMX1931/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
     vendor/realme/RMX1931/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
