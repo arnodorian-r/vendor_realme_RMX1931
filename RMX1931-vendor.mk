@@ -238,6 +238,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/lib/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib/libapsexif.so \
     vendor/realme/RMX1931/proprietary/odm/lib/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib/libapsjpeg.so \
     vendor/realme/RMX1931/proprietary/odm/lib/libancbase_rt_bokeh.so:$(TARGET_COPY_OUT_ODM)/lib/libancbase_rt_bokeh.so \
+    vendor/realme/RMX1931/proprietary/odm/lib/libbinder.so:$(TARGET_COPY_OUT_ODM)/lib/libbinder.so \
     vendor/realme/RMX1931/proprietary/odm/lib/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib/libbsproxy.so \
     vendor/realme/RMX1931/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
     vendor/realme/RMX1931/proprietary/odm/lib/libcdm_metrics_protos.so:$(TARGET_COPY_OUT_ODM)/lib/libcdm_metrics_protos.so \
@@ -337,6 +338,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libancbase_rt_bokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_rt_bokeh.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib64/libaudioEngineerTest.so \
+    vendor/realme/RMX1931/proprietary/odm/lib64/libbinder.so:$(TARGET_COPY_OUT_ODM)/lib64/libbinder.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib64/libbsproxy.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib64/libc++_shared.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libcdm_metrics_protos.so:$(TARGET_COPY_OUT_ODM)/lib64/libcdm_metrics_protos.so \
